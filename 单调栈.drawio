@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T03:44:01.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="cOt9sRk-8Ad_YvH7osPx" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-21T11:57:24.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="OTqQGm1CdM5P9TQFwu6z" version="17.4.6" type="github">
   <diagram id="Ao6Q-67OHpFfz_EzXNG_" name="第 1 页">
     <mxGraphModel dx="3519" dy="1708" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -534,6 +534,54 @@
           <mxGeometry x="82" width="41" height="30" as="geometry">
             <mxRectangle width="41" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aiMcgrZ3w5792oBM2h3q-148" value="......7......." style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#B85450;" vertex="1" parent="1">
+          <mxGeometry x="-2133" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aiMcgrZ3w5792oBM2h3q-149" value="5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="-2200" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiMcgrZ3w5792oBM2h3q-150" value="4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="-2004" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiMcgrZ3w5792oBM2h3q-151" value="5&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;10&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;15" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#B85450;" vertex="1" parent="1">
+          <mxGeometry x="-2177" y="631" width="217" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="aiMcgrZ3w5792oBM2h3q-152" value="6, 7, 8, 9, &lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;10&lt;/font&gt;&lt;/b&gt;, 11, 12, 13, 14" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="-2205" y="674" width="273" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="aiMcgrZ3w5792oBM2h3q-153" value="以7这个数作为最小值的子数组有 25个" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="-2307" y="657" width="91" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aiMcgrZ3w5792oBM2h3q-155" value="" style="endArrow=none;html=1;rounded=1;sketch=0;curved=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2142" y="706" as="sourcePoint" />
+            <mxPoint x="-2075" y="706" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiMcgrZ3w5792oBM2h3q-156" value="" style="endArrow=none;html=1;rounded=1;sketch=0;fontColor=#FF3333;curved=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2090" y="715" as="sourcePoint" />
+            <mxPoint x="-1991" y="712" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiMcgrZ3w5792oBM2h3q-157" value="子数组都必须包含7这个数，所以从6开始，子数组可以是6-10、6-11、6-12、6-13、6-14&lt;br&gt;从7开始，可以是7-10、7-11.。。。。。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-2307" y="722" width="548.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aiMcgrZ3w5792oBM2h3q-161" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;fontColor=#FF3333;curved=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2326" y="674" as="sourcePoint" />
+            <mxPoint x="-2326" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiMcgrZ3w5792oBM2h3q-162" value="Y&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;X&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Z&lt;br&gt;k&amp;nbsp; &amp;nbsp; &amp;nbsp; i&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; j" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontColor=#FF3333;strokeColor=#B85450;" vertex="1" parent="1">
+          <mxGeometry x="-2147" y="775" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aiMcgrZ3w5792oBM2h3q-163" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;以X作为最小值，子数组的个数有&amp;nbsp; （i- k） * (j - i)，其中k和j分别是左边和右边到达不了的&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-2301.5" y="835" width="499" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="aiMcgrZ3w5792oBM2h3q-169" value="2 * 2的地" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-2225" y="952" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
